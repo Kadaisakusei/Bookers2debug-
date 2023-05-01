@@ -19,25 +19,74 @@
 
 .contents{
   width: 300px;
+  margin: 50px 30px;
   background-color: #EEEEEE
 }
 
-.image{
-  height: 150px;
-  margin: 10px 10px 15px 10px;
-}
-
-.image .1 {
-  background-image: url(img-Assignment1/flow01.png);
+.title{
+  padding-left: 10px;
+  margin-bottom: 5px;
 }
 
 .text{
-  width: 300px
-
+  padding: 10px;
 }
 
-.bar-under {
-  height: 50px
-  background-color: #AAAAAA;
-  margin-top: 50px;
+.step{
+  font-size: 15px;
+  color: #FFFFFF;
+  width: 60px;
+  height: 30px;
+  background-color: #FF9A4B
+}
+
+.image1 {
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(img-Assignment1/flow01.png);
+  background-size: cover;
+}
+
+.image2 {
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(img-Assignment1/flow02.png);
+  background-size: cover;
+}
+
+.image3 {
+  height: 150px;
+  margin: 10px 10px 15px 10px;
+  background-image: url(img-Assignment1/flow03.png);
+  background-size: cover;
+}
+
+
+
+.text{
+  width: 300px
+}
+
+.bar-under{
+  height: 50px;
+  background-color: #AAAAAA
+}
+
+
+@media screen and (max-width: 425px) {
+.contents {
+  width: 100%;
+  display: block
+}
+
+.contents2{
+  width: 100%;
+  display: block
+}
+
+.contents3{
+  width: 100%;
+  display: block
+}
+
 }
